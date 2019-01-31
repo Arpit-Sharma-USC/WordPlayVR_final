@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UnfinishedConcrete_specular
+  m_Shader: {fileID: 4800000, guid: 89770619614a64449bcd68e30f154a0c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 9253c7d1e9b16be498ad705704a7324a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: 977dbde370367474fbeb521234960fc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 2800000, guid: 7fef370e685c9394b8cd93b047854dc8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Glossiness:
+        m_Texture: {fileID: 2800000, guid: a475106d3c147e64c8d01343ac6654fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: a1e6d9d8cebce6e4fb4098b573511640, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 560f0f29415b8824cbe0ca904b0b1cfe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 2800000, guid: 14c731708b3ab1f4bbbeef027c8ff2f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EmissiveMultiplier: 1
+    - _FlipNormalDirection: 0
+    - _InvertRoughness: 0
+    - _POMScale: 0
+    - _RoughnessMultiplier: 1
+    - _UVTiling: 1
+    - _UseEmissive: 0
+    - __dirty: 1
+    m_Colors: []

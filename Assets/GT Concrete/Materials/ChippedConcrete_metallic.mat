@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ChippedConcrete_metallic
+  m_Shader: {fileID: 4800000, guid: 6ed6ef84a1be9824a9dd0a3191dc72c3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: ef0eab8459fe995439fce837a664adf7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseColor:
+        m_Texture: {fileID: 2800000, guid: ca4626123db4481418aa71734cf14414, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive:
+        m_Texture: {fileID: 2800000, guid: cfaf7b79c8491c94da9d79786a979a5b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height:
+        m_Texture: {fileID: 2800000, guid: c87890a7ced38e548b8ac5f7b49c5be0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 2800000, guid: ed8729198723e664d89016314761f0ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 016b662503056c94c8eb129475bd7df5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: b677864ea8682f94badf4cb926367385, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EmissiveMultiplier: 1
+    - _FlipNormalDirection: 0
+    - _InvertRoughness: 0
+    - _POMScale: 0
+    - _RoughnessMultiplier: 1
+    - _UVTiling: 1
+    - _UseEmissive: 0
+    - __dirty: 1
+    m_Colors: []
